@@ -1,20 +1,20 @@
 div{
-	width:275px;
-	height:275px;
+	width:360px;
+	height:360px;
 }
 
 .cell {
-	width:25px;
-	height:25px;
-	background-color:blue;
-	border:1px solid white;
+	width:30px;
+	height:30px;
+	background-color:7018EF;
+	border:2px solid white;
 	float:left;
 }
 
 .snake{
-	background-color:yellow;
+	background-color:FF9A19;
 }
 
 .apple {
-	background-color:red;
+	background-color:14CC40;
 }
