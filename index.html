@@ -1,0 +1,24 @@
+<html>
+<head>
+  <script type="text/javascript"
+  				src="jquery-1.9.1.js"></script>
+  <script type="text/javascript"
+  				src="underscore.js"></script>
+   <script type="text/javascript"
+				src="board.js"></script>
+  <script type="text/javascript"
+  				src="snake.js"></script>
+   <script type="text/javascript"
+   				src="snake_ui.js"></script>
+	<link rel="stylesheet" href="./snake.css"></link>
+</head>
+
+<body>
+  <div id="game"></div>
+
+  <script>
+	$(function () { new SnakeGame.View($("#game")).start(); });
+  </script>
+  
+</body>
+</html>
