@@ -8,19 +8,14 @@ div{
 	width:30px;
 	height:30px;
   background: radial-gradient(#7761E5,#7018EF);
-/*  background-color:#7018EF;*/
 	border:2px solid white;
 	float:left;
 }
 
 .snake{
   background: radial-gradient(#FFBC65,#FF9A19);
-
-/*  background-color:#FF9A19;*/
 }
 
 .apple {
   background: radial-gradient(#00FF5E,#14CC40);
-
-/*  background-color:#14CC40;*/
 }

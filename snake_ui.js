@@ -79,7 +79,7 @@
   View.prototype.start = function(){
     this.board = new SnakeGame.Board(10);
     $(window).keydown(this.handleKeyEvent.bind(this));
-    this.timerId = setInterval(this.step.bind(this), 1000);
+    this.timerId = setInterval(this.step.bind(this), 400);
   };
 
 })(this);
